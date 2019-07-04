@@ -1,0 +1,14 @@
+POST /api/graphql/ HTTP/1.1
+Host: pluragraph.de
+Content-Type: application/json
+authorization: Bearer gS5oTEw1LRXzvjB7rer1SbcL
+User-Agent: PostmanRuntime/7.15.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 11902085-eaee-42f3-ad6b-c89b96dbdbe0,475097f5-9842-47cc-b1cb-7c8ae4878842
+Host: pluragraph.de
+accept-encoding: gzip, deflate
+content-length: 497
+Connection: keep-alive
+cache-control: no-cache
+

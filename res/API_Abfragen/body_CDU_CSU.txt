@@ -1,0 +1,24 @@
+{
+      watchlist(id: "09a23682-7839-49fa-b3c8-c89d78003a02") {
+        id
+        name
+        profiles{
+          edges{
+            node{
+              identifier
+              type
+              trackings (first: 1){
+                edges{
+                  node{
+                    ...on serviceTwitterTracking{
+                      followerCount
+                      date
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
